@@ -6,6 +6,14 @@
 #   cities = City.create([{ :name => 'Chicago' }, { :name => 'Copenhagen' }])
 #   Mayor.create(:name => 'Daley', :city => cities.first)
 
-user = User.create :email => 'stu@example.com', :password => 'secret'
+user = User.create :email => 'stu@example.com', :password => 'secret', :password_confirmation => 'secret'
 Category.create [{:name => 'TV'}, {:name =>'News'}]
-                
+user.articles.create  :title => 'Advanced Active Record',
+                      :body => "Models need to relate to each orther. In the real world, ..",
+                      :published_at => Date.today
+user.articles.create  :title => 'One-to-many Associations',
+                      :body => 'One-to-many associations describe a pattern ..',
+                      :published_at => Date.today
+user.articles.create  :title => 'Associations',
+                      :body => 'Active Record makes working with associations easy..'
+                      :published_at => Date.today
