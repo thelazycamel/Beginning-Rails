@@ -3,7 +3,7 @@
 one:
   user_id: 1
   name: MyString
-  birthday: 2010-12-01
+  birthday: 2010-05-02
   bio: MyText
   color: MyString
   twitter: MyString
@@ -11,7 +11,7 @@ one:
 two:
   user_id: 1
   name: MyString
-  birthday: 2010-12-01
+  birthday: 2010-05-02
   bio: MyText
   color: MyString
   twitter: MyString

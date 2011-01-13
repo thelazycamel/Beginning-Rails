@@ -5,11 +5,11 @@ one:
   location: MyString
   excerpt: MyString
   body: MyText
-  published_at: 2010-11-27 21:52:54
+  published_at: 2010-05-01 17:57:42
 
 two:
   title: MyString
   location: MyString
   excerpt: MyString
   body: MyText
-  published_at: 2010-11-27 21:52:54
+  published_at: 2010-05-01 17:57:42
